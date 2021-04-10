@@ -32,4 +32,4 @@ jobs:
       with:
         name: MyStack
         template: aws-cloudformation-deploy.template
-        parameter-overrides: "HashKeyElementName=TESTCOLUMNNAME,MyParam2=${{ secrets.MY_SECRET_VALUE }}"	
+        parameter-overrides: "HashKeyElementName=TESTCOLUMNNAME"	
